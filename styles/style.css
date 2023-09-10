@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-wrapper{
+    background-image: url(../aseat/images/Animated\ Shape\ \(1\).svg);
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo>img{
+    width: 30%;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo>h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(238, 7, 115);
+}
+.nav-Menu>ul{
+    display: flex;
+
+    
+}
+.nav-Menu ul li{
+  list-style-type: none;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+ 
+}
+.nav-Menu ul li:hover{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-Menu ul li a{
+    text-decoration: none;
+    color:b;
+}
+.bnt-primary{
+    background-color: rgba(0, 255, 255, 0.486);
+    padding: 5px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+}
+.bnt-primary  a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-container p{
+    font-size: 18;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header-container h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(15, 14, 15);
+    margin-bottom: 20px;
+}
+
