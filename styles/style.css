@@ -24,6 +24,7 @@
     font-size: 3rem;
     font-weight: 800;
     color: rgb(238, 7, 115);
+    text-transform: uppercase;
 }
 .nav-Menu>ul{
     display: flex;
@@ -71,5 +72,49 @@
     font-weight: 800;
     color: rgb(15, 14, 15);
     margin-bottom: 20px;
+}
+
+
+
+
+/* Resposive */
+    
+  /* max-width-662 */
+@media screen and (max-width:662px){
+     *{
+        margin: 0px;
+        padding: 0px;
+     }
+    .navbar{
+        flex-direction: column;
+     }
+     .nav-Menu>ul{
+        flex-direction: column;
+      
+     }
+     .nav-Menu ul li{
+        margin-top: 15px;
+     }
+     .bnt-primary{
+        margin: 20px;
+     }
+}
+
+/* min-width-663&max-width-962 */
+@media screen and (min-width:662px) and (max-width:962px){
+    
+   .navbar{
+       flex-direction: column;
+    }
+    .nav-Menu>ul{
+       flex-direction: column;
+     
+    }
+    .nav-Menu ul li{
+       margin-top: 15px;
+    }
+    .bnt-primary{
+       margin: 20px;
+    }
 }
 
