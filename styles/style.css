@@ -279,6 +279,9 @@
         gap: 10px;     
         
 }
+.nav-logo{
+    flex-direction: column;
+}
 .services{
     padding-left:10px; 
 }
