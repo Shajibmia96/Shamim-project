@@ -5,8 +5,9 @@
 }
 
 .header-wrapper{
-    background-image: url(../aseat/images/Animated\ Shape\ \(1\).svg);
+    background-image: url(../aseat/images/Animated\ Shape\ \(2\).svg);
     width: 100%;
+    margin-bottom: 150px;
 }
 .navbar{
     display: flex;
@@ -15,6 +16,7 @@
 }
 .nav-logo>img{
     width: 30%;
+    /* height: 20%; */
 }
 .nav-logo{
     display: flex;
@@ -24,7 +26,8 @@
     font-size: 3rem;
     font-weight: 800;
     color: rgb(238, 7, 115);
-    text-transform: uppercase;
+
+    margin-left: 1rem;
 }
 .nav-Menu>ul{
     display: flex;
@@ -33,9 +36,11 @@
 }
 .nav-Menu ul li{
   list-style-type: none;
-  margin-left: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   font-size: 1.5rem;
   font-weight: 400;
+  
  
 }
 .nav-Menu ul li:hover{
@@ -46,22 +51,28 @@
 }
 .nav-Menu ul li a{
     text-decoration: none;
-    color:b;
+    color: #fff;
+    
 }
 .bnt-primary{
     background-color: rgba(0, 255, 255, 0.486);
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     list-style-type: none;
-    margin-left: 3rem;
+  
     font-size: 1.5rem;
     font-weight: 400;
     border: none;
+}
+.bnt-primary:hover{
+    background-color:black;
+   transition: 1s;
 }
 .bnt-primary  a{
     text-decoration: none;
     color: #fff;
 }
+
 .header-container p{
     font-size: 18;
     font-weight: 400;
@@ -73,6 +84,120 @@
     color: rgb(15, 14, 15);
     margin-bottom: 20px;
 }
+.header-img img{
+    width: 150%;
+   
+}
+
+/* services */
+.services-container{
+    padding-top: 120px;
+    background-color: #fff;
+}
+ .services-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(15, 14, 15);
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+ }
+
+
+ 
+
+ .services{
+
+    box-shadow: 0px 5px 10px rgba(151, 130, 90, 0.233);
+    padding: 20px;
+    border-radius: 25px;
+    /* padding-left: 80px; */
+
+ }
+ .info{
+    display: flex;
+ }
+
+.services:hover{
+    background-color: blue;
+    transition: 5s;
+    cursor: pointer;
+}
+.services-img>i{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    background-color: aquamarine;
+    border-radius: 50%;
+    padding: 25px;
+    margin-left: 100px;
+
+
+}
+ .service-title{
+        font-size: 2rem;
+        font-weight: 800;
+        color: rgb(15, 14, 15);
+       
+        display: flex;
+        text-transform: uppercase;
+       }
+       .services p{
+        font-size: 18;
+        font-weight: 400;
+        margin: 20px 0px;
+       }
+       .read{
+        text-decoration: none;
+        font-size: 18;
+        font-weight: 400;
+        color:blue;
+       }
+      .secvices-card{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+        margin: 0px 100px;
+        padding-bottom: 120px;
+
+       
+      }
+
+
+      /* know-us-section */
+      .know-us-container{
+        background-image: url('../aseat/images/Rect\ Light.svg');
+        background-size: 100%;
+       
+      }
+      .know-us-wrapper{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+      }
+      .bnt{
+        display: flex;
+        justify-content: start;
+      }
+      .bnt-us{
+        background-color: rgba(251, 252, 252, 0.486);
+         border:  2px solid blue;
+         margin-left: 2rem;
+      }
+      .know-1 p{
+        margin: 2rem 0px;
+        font-size: 18;
+        font-weight: 400;
+        
+      }
+
 
 
 
@@ -98,7 +223,26 @@
      .bnt-primary{
         margin: 20px;
      }
+     .header-img img{
+        width: 70%;}
+
+     .secvices-card{
+        
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;     
+        margin: 0px 0px; 
 }
+
+
+.services{
+    
+    padding-left:10px;
+    
+}
+
+}
+
+
 
 /* min-width-663&max-width-962 */
 @media screen and (min-width:662px) and (max-width:962px){
