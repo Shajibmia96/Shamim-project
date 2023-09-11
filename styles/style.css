@@ -7,7 +7,6 @@
 .header-wrapper{
     background-image: url(../aseat/images/Animated\ Shape\ \(2\).svg);
     width: 100%;
-    margin-bottom: 150px;
 }
 .navbar{
     display: flex;
@@ -26,8 +25,7 @@
     font-size: 3rem;
     font-weight: 800;
     color: rgb(238, 7, 115);
-
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 .nav-Menu>ul{
     display: flex;
@@ -198,6 +196,55 @@
         
       }
 
+      /* footer */
+      .footer-container{
+        background-color: black;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+      }
+      .social-media h1{
+        font-size: 1rem;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+      .facebook img{
+        width: 100%;
+      }
+      .footer-img img{
+        width: 30%;
+      }
+      .media-title{
+        font-size: 1rem;
+        font-weight: 500;
+        color:#fff;
+       
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+      }
+      .footer-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer-info input{
+        padding: 1rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+        border-radius: 1rem;
+
+      }
+      
+      .social-media{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-top: 2rem;
+        margin-right: 5rem;
+      }
+
 
 
 
@@ -230,17 +277,33 @@
         
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;     
-        margin: 0px 0px; 
+        
 }
-
-
 .services{
-    
-    padding-left:10px;
+    padding-left:10px; 
+}
+.know-us-wrapper{
+ flex-direction: column;
+}
+.footer-container{
+    flex-direction: column;
     
 }
+.social-media{
+    flex-direction: column;
+    margin-right: 0px;
+}
+ 
+ 
+ .footer-img img{
+    width: 100%;
+ }
+ .footer-wrapper{
+    flex-direction: column;
+ }
 
 }
+
 
 
 
@@ -259,6 +322,17 @@
     }
     .bnt-primary{
        margin: 20px;
+    }
+    .know-us-wrapper{
+        flex-direction: column;
+       }
+    .secvices-card{
+        
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;     
+    }
+    .footer-container{
+        flex-direction: column;
     }
 }
 
